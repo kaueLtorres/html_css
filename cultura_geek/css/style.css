@@ -1,0 +1,23 @@
+@charset "utf-8";
+:root{
+    --corprimaria:#57af8d ;
+    --corsec:#48a9cf;
+    --may: #9e659e ;
+    --kaue: #f1f18a ;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right top,  #d5b6e2, #b7c3f2, #b2f1ed, #c7f0f1);
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}

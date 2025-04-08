@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+:root{
+   --kkaue : #6991e7;
+   --rray :#a7d7ffef;
+   --mmychel : #a986d7; 
+   --letras : #000000;
+
+}
+
+
+/* o que sabemos sobre formatação de texto
+-cor (color:)
+-tipos de fonte (font-family:)
+-tamanho da fonte (font-size:)
+-margem de texto (margin:)
+- espaçamento (padding:)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    height:100vh;
+    /* background-color: aqua; */
+
+    /* unidade de medida para mobile-first
+    sera um viewport */
+font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+body{
+    background-image: linear-gradient(to top, var(--kkaue), var(--rray) );
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+
+color: var(--letras);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header{
+    background-color: var(--kkaue);
+    
+    height: 7vh;
+    
+    text-align: center; 
+    
+    margin: auto;
+ }
+
+ h1 {
+    text-align:right;
+    padding: 0.9em;
+    text-transform:lowercase;
+ }
+
+
+ h2
+{
+    text-align:center;
+    padding: 0.3em;
+    text-transform:lowercase
+}
+
+
+0 
+ menu{
+     /* background-color: var(--mmychel); */
+     background-color: var(--mmychel);
+ height: 7vh;
+ color: #212121;
+ margin: auto;
+ text-align: center;
+ padding: 0.6em;
+
+
+ li{
+    display: inline-block;
+ }
+
+
+ }
+ section{
+     background-color: var(--rray);
+ height: auto;
+ text-align: justify;
+ margin: auto;
+ }
+
+
+ footer{
+     background-color: var(--kkaue);
+     height: 5vh;
+     text-align: center;
+     margin: auto;
+     padding: 0.7em;
+     
+ }    
+
+ button{
+ background-color: #6391cec5;
+ width: 100px;
+ margin: 6px;
+ padding: 2.5px;
+
+ }
+
+ img {
+    border-radius: 8px;
+}
+
+    
